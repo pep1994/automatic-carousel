@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  position: relative;
+}
+
+.carousel-wrapper {
+  width: 700px;
+  height: 50vh;
+  position: relative;
+  border: solid 1px black;
+  overflow-x: hidden;
+}
+
+  img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 800px;
+  top: 0;
+  /* transition: left 1s; */
+}
+
+.active {
+  left: 0;
+}
