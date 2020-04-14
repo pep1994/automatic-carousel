@@ -32,3 +32,20 @@
 .active {
   left: 0;
 }
+
+.nav {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.nav i {
+  cursor: pointer;
+}
+
+.nav i.select {
+  background-color: #000;
+  border-radius: 100%;
+
+}
